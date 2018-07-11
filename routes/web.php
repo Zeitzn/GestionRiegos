@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('index');
 });
 
+
 // Route::get('prueba/{name}','PruebaController@prueba');
 
 // Route::resource('trainers','TrainerController');
@@ -33,8 +34,11 @@ Route::resource('/usuario','UsuarioController');
 //Usar todas las acciones del controlador parcela
 Route::resource('/parcela','ParcelaController');
 
-//Usar todas las acciones del controlador parcela
+//Usar todas las acciones del controlador peticion
 Route::resource('/peticion','PeticionController');
+
+//Usar todas las acciones del controlador formula
+Route::resource('/formula','FormulaController');
 
 
 

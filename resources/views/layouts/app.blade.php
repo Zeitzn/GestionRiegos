@@ -152,6 +152,10 @@
                   </ul>
                 </li>
 
+                <li>
+                  <a href="/formula">Fórmulas</a>
+                </li>
+
 
             </ul>
             <!-- /.nav -->
