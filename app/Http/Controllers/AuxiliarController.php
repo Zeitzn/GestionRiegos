@@ -8,6 +8,7 @@ use DB;
 // use Excel;
 use LaraDex\Usuario;
 use LaraDex\Parcela;
+use LaraDex\Formula;
 class AuxiliarController extends Controller
 {
     public function cargarUsuarios()
@@ -57,5 +58,16 @@ class AuxiliarController extends Controller
         });
     
         return view("usuario.index");
+    }
+
+
+    public function datosFormula($inferior,$superior){
+
+        // $datosFormula=Formula::all();
+        $datosFormula = DB::table('formula')
+                    ->where('numero', '=', $inferior)
+                    ->orWhere('numero', $superior)
+                    ->get();
+        return $datosFormula;
     }
 }

@@ -47,5 +47,6 @@ Route::get('/auxiliar/cargar','AuxiliarController@cargarUsuarios');
 Route::get('/auxiliar/cargarParcela','AuxiliarController@cargarParcelas');
 Route::get('/auxiliar/cargarParcelasUsuario/{id}','AuxiliarController@cargarParcelasUsuario');
 Route::post('/auxiliar/import-excel', 'AuxiliarController@importUsers');
+Route::get('/auxiliar/datosFormula/{inferior}/{superior}', 'AuxiliarController@datosFormula');
 
 

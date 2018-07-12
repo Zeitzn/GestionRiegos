@@ -15,6 +15,19 @@ class CreateFormulaTable extends Migration
     {
         Schema::create('formula', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('numero');
+            $table->integer('enero');
+            $table->integer('febrero');
+            $table->integer('marzo');
+            $table->integer('abril');
+            $table->integer('mayo');
+            $table->integer('junio');
+            $table->integer('julio');
+            $table->integer('agosto');
+            $table->integer('setiembre');
+            $table->integer('octubre');
+            $table->integer('noviembre');
+            $table->integer('diciembre');
             $table->timestamps();
         });
     }
