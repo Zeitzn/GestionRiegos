@@ -42,7 +42,8 @@
   <!--For Development Only. Not required -->
 
   
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  {{--  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>  --}}
+  <script src='http://localhost:8000/assets/web/js/jquery.min.js'></script>
   {{--  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>  --}}
   <script src="http://localhost:8000/assets/js/usuarios.js"></script>
   <script src="http://localhost:8000/assets/jquery-ui/jquery-ui.js"></script>
@@ -63,7 +64,7 @@
   </script>
   <link rel="stylesheet" href="http://localhost:8000/assets/css/style-switcher.css">
   <!-- <link rel="stylesheet/less" type="text/css" href="http://localhost:8000/assets/less/theme.less"> -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.js"></script>
+  <script src="http://localhost:8000/assets/web/js/less.js"></script>
 
 
 
@@ -71,6 +72,10 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
 <link rel='stylesheet prefetch' href='https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css'>
 <link rel='stylesheet prefetch' href='https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css'>
+
+{{--  <link rel='stylesheet prefetch' href='http://localhost:8000/assets/web/datatable/css/font-awesome.css'>  --}}
+{{--  <link rel='stylesheet prefetch' href='http://localhost:8000/assets/web/datatable/css/jquery.dataTables.min.css'>  --}}
+{{--  <link rel='stylesheet prefetch' href='http://localhost:8000/assets/web/datatable/css/buttons.dataTables.min.css'>  --}}
 <link rel="stylesheet" href="http://localhost:8000/assets/datatable2/css/style.css">
 </head>
 
@@ -91,7 +96,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="index.html" class="navbar-brand">
+            <a href="/" class="navbar-brand">
               <img src="http://localhost:8000/assets/img/logo.png" alt="">
             </a>
 
@@ -248,15 +253,22 @@
 
 <!-- DATATABLE V2 -->
 
-
-<script src='https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js'></script>
+<script src='http://localhost:8000/assets/web/datatable/js/jquery.dataTables.min.js'></script>
+<script src='http://localhost:8000/assets/web/datatable/js/dataTables.buttons.min.js'></script>
+<script src='http://localhost:8000/assets/web/datatable/js/jszip.min.js'></script>
+<script src='http://localhost:8000/assets/web/datatable/js/pdfmake.min.js'></script>
+<script src='http://localhost:8000/assets/web/datatable/js/vfs_fonts.js'></script>
+<script src='http://localhost:8000/assets/web/datatable/js/buttons.html5.min.js'></script>
+<script src='http://localhost:8000/assets/web/datatable/js/buttons.print.min.js'></script>
+<script src='http://localhost:8000/assets/web/datatable/js/buttons.colVis.min.js'></script>
+{{--  <script src='https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js'></script>
 <script src='https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js'></script>
 <script src='https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js'></script>
 <script src='https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js'></script>
-<script src='https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js'></script>
+<script src='https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js'></script>  --}}
 
 <script  src="http://localhost:8000/assets/datatable2/js/index.js"></script>
 
