@@ -56,8 +56,8 @@ class AuxiliarController extends Controller
             });
         
         });
-    
-        return view("usuario.index");
+        $usuarios=Usuario::all();
+        return view("usuario.index",compact('usuarios'));
     }
 
 
