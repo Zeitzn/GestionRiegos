@@ -50,7 +50,7 @@
                 <td><input class="form-control" value="30" id="noviembre"/></td>
                 <td><input class="form-control" value="31" id="diciembre"/></td> 
             </tr>
-            <tr>
+            <tr class="text-success" style="background-color:lightgreen">
                 <td style="font-weight:bold;">Tmedia (C°)</td>
                 <td><input class="form-control" value="0" id="tmedia_enero"/></td>
                 <td><input class="form-control" value="0" id="tmedia_febrero"/></td>
@@ -65,7 +65,7 @@
                 <td><input class="form-control" value="0" id="tmedia_noviembre"/></td>
                 <td><input class="form-control" value="0" id="tmedia_diciembre"/></td> 
             </tr>
-            <tr>
+            <tr class="text-success" style="background-color:lightgreen">
                 <td style="font-weight:bold;">HR (%)</td>
                 <td><input class="form-control" value="0" id="hr_enero"/></td>
                 <td><input class="form-control" value="0" id="hr_febrero"/></td>
@@ -200,7 +200,7 @@
                 
                     <tbody class="small">
                     
-                        <tr>
+                        <tr class="text-success" style="background-color:lightgreen">
                             <td style="font-weight:bold;">KC</td>
                             <td><input class="form-control" value="0" id="kc_enero"/></td>
                             <td><input class="form-control" value="0" id="kc_febrero"/></td>
@@ -245,7 +245,7 @@
                             <td><input class="form-control" value="0" id="etr_noviembre"/></td>
                             <td><input class="form-control" value="0" id="etr_diciembre"/></td> 
                         </tr>
-                        <tr>
+                        <tr class="text-success" style="background-color:lightgreen">
                             <td style="font-weight:bold;">P. EFECTIVA</td>
                             <td><input class="form-control" value="0" id="pef_enero"/></td>
                             <td><input class="form-control" value="0" id="pef_febrero"/></td>
@@ -275,7 +275,7 @@
                             <td><input class="form-control" value="0" id="dun_noviembre"/></td>
                             <td><input class="form-control" value="0" id="dun_diciembre"/></td> 
                         </tr>
-                        <tr>
+                        <tr class="text-success" style="background-color:lightgreen">
                             <td style="font-weight:bold;">Eficiencia</td>
                             <td><input class="form-control" value="0" id="efi_enero"/></td>
                             <td><input class="form-control" value="0" id="efi_febrero"/></td>
@@ -305,7 +305,7 @@
                             <td><input class="form-control" value="0" id="dub_noviembre"/></td>
                             <td><input class="form-control" value="0" id="dub_diciembre"/></td> 
                         </tr>
-                        <tr>
+                        <tr class="text-success" style="background-color:lightgreen">
                             <td style="font-weight:bold;">PROF. RAIZ</td>
                             <td><input class="form-control" value="0" id="raiz_enero"/></td>
                             <td><input class="form-control" value="0" id="raiz_febrero"/></td>
